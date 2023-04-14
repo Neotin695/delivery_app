@@ -1,0 +1,72 @@
+name: delivery
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  firebase_core: ^2.8.0
+  flutter_native_splash: ^2.2.16
+  firebase_auth: ^4.3.0
+  flutter_launcher_icons: ^0.10.0
+
+  pinput: ^2.2.12
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  connectivity_plus: ^3.0.4
+  internet_connection_checker: ^1.0.0+1
+  sizer: ^2.0.15
+  flutter_svg: ^2.0.5
+  cool_alert: ^2.0.1
+
+flutter_native_splash:
+  color: "#FAAF3B"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+  android_gravity: center
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon1.png"
+  min_sdk_android: 21
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/ArbFONTS-Tajawal-Black.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Bold-1.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Bold-2.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Bold.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-ExtraBold.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-ExtraLight.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Light.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Medium.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Regular-1.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Regular-2.ttf
+        - asset: assets/fonts/ArbFONTS-Tajawal-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
